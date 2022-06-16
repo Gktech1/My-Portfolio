@@ -1,6 +1,7 @@
-﻿
+﻿@model ContactViewModel
 @{
-    ViewData["Title"] = "Contact Page";
+    ViewData["Title"] = "Contact page";
+    ViewBag.Section = "Contact";
 }
 
 
@@ -48,7 +49,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form asp-action="Index" method="post" role="form"  asp-controller="Contact">
               <div class="row">
                 <div class="col form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -68,7 +69,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <input type="submit" class="text-center" placeholder="Send Message" >
             </form>
           </div>
 

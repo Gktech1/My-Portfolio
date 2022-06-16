@@ -39,7 +39,6 @@ C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\MyPortfo
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\MyPortfolio.RazorCoreGenerate.cache
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\Razor\Views\Home\PageNotFound.cshtml.g.cs
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\Razor\Views\Home\Project.cshtml.g.cs
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -56,3 +55,6 @@ C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\refint\M
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\MyPortfolio.pdb
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\MyPortfolio.genruntimeconfig.cache
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\ref\MyPortfolio.dll
+C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\Razor\Views\Shared\PageNotFound.cshtml.g.cs
+C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\bin\Debug\net5.0\Data\Contact.json
+C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\bin\Debug\net5.0\Data\Project.json

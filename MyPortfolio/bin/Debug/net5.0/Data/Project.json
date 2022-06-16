@@ -1,0 +1,18 @@
+{
+  "Id": 1,
+  "ImageUrl": "../img/portfolio/MyPortfolio.png",
+  "ProjectLink": "https://github.com/decadevs/week-1-task-Gktech1"
+}, {
+  "Id": 2,
+  "ImageUrl": "../img/portfolio/Consolebankapp.png",
+  "ProjectLink": "https://github.com/decadevs/week-2-task-Gktech1"
+}, 
+{
+  "Id": 3,
+  "ImageUrl": "../img/portfolio/GPACalculator.png",
+  "ProjectLink": "https://github.com/decadevs/week-3-task-Gktech1"
+}, {
+  "Id": 4,
+  "ImageUrl": "../img/portfolio/LinkedList.png",
+  "ProjectLink": "https://github.com/decadevs/week-4-task-Gktech1"
+}
