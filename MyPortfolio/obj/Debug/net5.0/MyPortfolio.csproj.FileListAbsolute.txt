@@ -55,6 +55,6 @@ C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\refint\M
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\MyPortfolio.pdb
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\MyPortfolio.genruntimeconfig.cache
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\ref\MyPortfolio.dll
-C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\Razor\Views\Shared\PageNotFound.cshtml.g.cs
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\bin\Debug\net5.0\Data\Contact.json
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\bin\Debug\net5.0\Data\Project.json
+C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\Razor\Views\Shared\NotFound.cshtml.g.cs
