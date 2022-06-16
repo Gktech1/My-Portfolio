@@ -7,7 +7,7 @@ using System.IO;
 
 namespace MyPortfolio.Data
 {
-    public class Seeder : IRepositories
+    public class Seeder 
     {
         private string db = Path.Combine(Directory.GetCurrentDirectory(), "Data/");
 
@@ -42,14 +42,5 @@ namespace MyPortfolio.Data
             return objects;
         }
 
-        public bool WriteContact(ContactViewModel contact)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<ProjectViewModel> GetProject()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

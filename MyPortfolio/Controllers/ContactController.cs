@@ -13,23 +13,17 @@ namespace MyPortfolio.Controllers
             _services = services;
 
         }
+
         [HttpPost]
-        public IActionResult Index(ContactViewModel contactView)
+        public IActionResult Index(Contact contactView)
         {
             var result = _services.CreateContact(contactView);
-            if (result != null)
+            if (result)
             {
                 return Redirect("Home/Index");
-
             }
-            else if (result == null)
-            {
 
-                return RedirectToAction("NotFound", "Index");
-
-            }
-            
-            return View();
+            return RedirectToAction("NotFoundPage", "Index");
         }
 
     } 

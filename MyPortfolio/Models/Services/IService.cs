@@ -6,7 +6,7 @@ namespace MyPortfolio.Models.Services
 {
     public interface IService
     {
-        bool CreateContact(ContactViewModel contact);
-        List<ProjectViewModel> GetAllProjects();
+        bool CreateContact(Contact contact);
+        List<Project> GetAllProjects();
     }
 }

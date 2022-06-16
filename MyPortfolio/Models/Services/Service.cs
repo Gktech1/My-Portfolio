@@ -13,12 +13,12 @@ namespace MyPortfolio.Models.Services
             _repositories = repositories;
         }
 
-        public bool CreateContact(ContactViewModel contact)
+        public bool CreateContact(Contact contact)
         {
             return _repositories.WriteContact(contact);
         }
 
-        public List<ProjectViewModel> GetAllProjects()
+        public List<Project> GetAllProjects()
         {
             return _repositories.GetProject();
         }

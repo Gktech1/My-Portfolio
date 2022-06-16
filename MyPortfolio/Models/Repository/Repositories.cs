@@ -13,15 +13,15 @@ namespace MyPortfolio.Models.Repository
             seedMe = new Seeder();
         }
 
-        public List<ProjectViewModel> GetProject()
+        public List<Project> GetProject()
         {
-            var list = seedMe.ReadJson<ProjectViewModel>(project);
+            var list = seedMe.ReadJson<Project>(project);
             return list;
         }
 
-        public bool WriteContact(ContactViewModel contact)
+        public bool WriteContact(Contact contact)
         {
-            var write = seedMe.WriteJson<ContactViewModel>(contact, cont);
+            var write = seedMe.WriteJson<Contact>(contact, cont);
             return write;
         }
     }

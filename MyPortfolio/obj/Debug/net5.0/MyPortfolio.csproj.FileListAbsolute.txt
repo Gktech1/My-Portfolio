@@ -57,4 +57,9 @@ C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\MyPortfo
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\ref\MyPortfolio.dll
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\bin\Debug\net5.0\Data\Contact.json
 C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\bin\Debug\net5.0\Data\Project.json
-C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\Razor\Views\Shared\NotFound.cshtml.g.cs
+C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\obj\Debug\net5.0\Razor\Views\Shared\NotFoundPage.cshtml.g.cs
+C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\bin\Debug\net5.0\Moq.dll
+C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\bin\Debug\net5.0\xunit.abstractions.dll
+C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\bin\Debug\net5.0\xunit.assert.dll
+C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\bin\Debug\net5.0\xunit.core.dll
