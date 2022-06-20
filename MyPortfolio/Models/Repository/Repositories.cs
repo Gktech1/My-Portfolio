@@ -5,23 +5,23 @@ namespace MyPortfolio.Models.Repository
 {
     public class Repositories:IRepositories
     {
-        private string project = "Project.json";
-        private string cont = "Contact.json";
-        private readonly Seeder seedMe;
+        private string _project = "Project.json";
+        private string _contact = "Contact.json";
+        private readonly Seeder _seedMe;
         public Repositories()
         {
-            seedMe = new Seeder();
+            _seedMe = new Seeder();
         }
 
         public List<Project> GetProject()
         {
-            var list = seedMe.ReadJson<Project>(project);
+            var list = _seedMe.ReadJson<Project>(_project);
             return list;
         }
 
         public bool WriteContact(Contact contact)
         {
-            var write = seedMe.WriteJson<Contact>(contact, cont);
+            var write = _seedMe.WriteJson<Contact>(contact, _contact);
             return write;
         }
     }

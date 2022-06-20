@@ -23,7 +23,7 @@ namespace MyPortfolio.Controllers
                 return Redirect("Home/Index");
             }
 
-            return RedirectToAction("NotFoundPage", "Index");
+            return View();
         }
 
     } 

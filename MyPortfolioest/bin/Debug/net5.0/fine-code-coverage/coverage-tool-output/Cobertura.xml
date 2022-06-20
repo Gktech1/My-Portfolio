@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.143646408839779" branch-rate="0" lines-covered="26" lines-valid="181" branches-covered="0" branches-valid="78" complexity="113" version="0" timestamp="1655416511">
+<coverage line-rate="0.15425531914893617" branch-rate="0" lines-covered="29" lines-valid="188" branches-covered="0" branches-valid="76" complexity="111" version="0" timestamp="1655600110">
   <sources>
     <source>C:\Users\Decagon\</source>
   </sources>
   <packages>
-    <package name="MyPortfolio" line-rate="0.11678832116788321" branch-rate="0" complexity="41">
+    <package name="MyPortfolio" line-rate="0.06015037593984962" branch-rate="0" complexity="40">
       <classes>
         <class name="MyPortfolio.Controllers.ContactController" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Controllers\ContactController.cs" line-rate="0" branch-rate="0" complexity="3">
           <methods>
@@ -121,19 +121,19 @@
             <line number="52" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="MyPortfolio.Data.Seeder" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Data\Seeder.cs" line-rate="0.2692307692307692" branch-rate="0" complexity="4">
+        <class name="MyPortfolio.Data.Seeder" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Data\Seeder.cs" line-rate="0" branch-rate="0" complexity="4">
           <methods>
-            <method name="WriteJson" signature="(...)" line-rate="0.6666666666666666" branch-rate="1" complexity="1">
+            <method name="WriteJson" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="3" branch="false" />
-                <line number="17" hits="3" branch="false" />
-                <line number="18" hits="3" branch="false" />
-                <line number="19" hits="3" branch="false" />
-                <line number="20" hits="3" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
                 <line number="22" hits="0" branch="false" />
                 <line number="23" hits="0" branch="false" />
                 <line number="24" hits="0" branch="false" />
-                <line number="26" hits="3" branch="false" />
+                <line number="26" hits="0" branch="false" />
               </lines>
             </method>
             <method name="ReadJson" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
@@ -156,23 +156,23 @@
                 <line number="43" hits="0" branch="false" />
               </lines>
             </method>
-            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="3" branch="false" />
+                <line number="12" hits="0" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="12" hits="3" branch="false" />
-            <line number="15" hits="3" branch="false" />
-            <line number="17" hits="3" branch="false" />
-            <line number="18" hits="3" branch="false" />
-            <line number="19" hits="3" branch="false" />
-            <line number="20" hits="3" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
             <line number="22" hits="0" branch="false" />
             <line number="23" hits="0" branch="false" />
             <line number="24" hits="0" branch="false" />
-            <line number="26" hits="3" branch="false" />
+            <line number="26" hits="0" branch="false" />
             <line number="28" hits="0" branch="false" />
             <line number="29" hits="0" branch="false" />
             <line number="30" hits="0" branch="false" />
@@ -191,52 +191,40 @@
             <line number="43" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="MyPortfolio.Models.Contact" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Models\Contact.cs" line-rate="1" branch-rate="1" complexity="6">
+        <class name="MyPortfolio.Models.Contact" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Models\Contact.cs" line-rate="1" branch-rate="1" complexity="5">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="9" branch="false" />
+                <line number="7" hits="3" branch="false" />
               </lines>
             </method>
             <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="6" branch="false" />
+                <line number="8" hits="3" branch="false" />
               </lines>
             </method>
             <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="6" branch="false" />
+                <line number="9" hits="3" branch="false" />
               </lines>
             </method>
             <method name="get_Subject" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="6" branch="false" />
+                <line number="10" hits="3" branch="false" />
               </lines>
             </method>
             <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="6" branch="false" />
-              </lines>
-            </method>
-            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
                 <line number="11" hits="3" branch="false" />
-                <line number="12" hits="3" branch="false" />
-                <line number="13" hits="3" branch="false" />
-                <line number="14" hits="3" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="9" branch="false" />
-            <line number="6" hits="6" branch="false" />
-            <line number="7" hits="6" branch="false" />
-            <line number="8" hits="6" branch="false" />
-            <line number="9" hits="6" branch="false" />
+            <line number="7" hits="3" branch="false" />
+            <line number="8" hits="3" branch="false" />
+            <line number="9" hits="3" branch="false" />
+            <line number="10" hits="3" branch="false" />
             <line number="11" hits="3" branch="false" />
-            <line number="12" hits="3" branch="false" />
-            <line number="13" hits="3" branch="false" />
-            <line number="14" hits="3" branch="false" />
           </lines>
         </class>
         <class name="MyPortfolio.Models.ErrorViewModel" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Models\ErrorViewModel.cs" line-rate="0" branch-rate="1" complexity="2">
@@ -257,28 +245,28 @@
             <line number="9" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="MyPortfolio.Models.Project" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Models\Project.cs" line-rate="0" branch-rate="1" complexity="3">
+        <class name="MyPortfolio.Models.Project" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Models\Project.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
-            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="0" branch="false" />
+                <line number="7" hits="3" branch="false" />
               </lines>
             </method>
-            <method name="get_ImageUrl" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_ImageUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="6" hits="0" branch="false" />
+                <line number="8" hits="3" branch="false" />
               </lines>
             </method>
-            <method name="get_ProjectLink" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_ProjectLink" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="0" branch="false" />
+                <line number="9" hits="3" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="0" branch="false" />
-            <line number="6" hits="0" branch="false" />
-            <line number="7" hits="0" branch="false" />
+            <line number="7" hits="3" branch="false" />
+            <line number="8" hits="3" branch="false" />
+            <line number="9" hits="3" branch="false" />
           </lines>
         </class>
         <class name="MyPortfolio.Models.Repository.Repositories" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Models\Repository\Repositories.cs" line-rate="0" branch-rate="1" complexity="3">
@@ -479,7 +467,7 @@
         </class>
       </classes>
     </package>
-    <package name="MyPortfolio.Views" line-rate="0" branch-rate="0" complexity="69">
+    <package name="MyPortfolio.Views" line-rate="0" branch-rate="0" complexity="67">
       <classes>
         <class name="AspNetCore.Views__ViewStart" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Views\_ViewStart.cshtml" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -557,46 +545,46 @@
             <line number="39" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="AspNetCore.Views_Shared__Layout" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="56">
+        <class name="AspNetCore.Views_Shared__Layout" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="54">
           <methods>
-            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="20">
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="18">
               <lines>
-                <line number="6" hits="0" branch="true" condition-coverage="0% (0/20)" />
+                <line number="6" hits="0" branch="true" condition-coverage="0% (0/18)" />
               </lines>
             </method>
             <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="36">
               <lines>
-                <line number="55" hits="0" branch="true" condition-coverage="0% (0/12)" />
-                <line number="131" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="56" hits="0" branch="true" condition-coverage="0% (0/12)" />
                 <line number="132" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="133" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="134" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="135" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="136" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="137" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="138" hits="0" branch="true" condition-coverage="0% (0/4)" />
-                <line number="142" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="138" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="139" hits="0" branch="true" condition-coverage="0% (0/4)" />
                 <line number="143" hits="0" branch="true" condition-coverage="0% (0/2)" />
                 <line number="144" hits="0" branch="true" condition-coverage="0% (0/2)" />
-                <line number="146" hits="0" branch="false" />
+                <line number="145" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="147" hits="0" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="6" hits="0" branch="true" condition-coverage="0% (0/20)" />
-            <line number="55" hits="0" branch="true" condition-coverage="0% (0/12)" />
-            <line number="131" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="6" hits="0" branch="true" condition-coverage="0% (0/18)" />
+            <line number="56" hits="0" branch="true" condition-coverage="0% (0/12)" />
             <line number="132" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="133" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="134" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="135" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="136" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="137" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="138" hits="0" branch="true" condition-coverage="0% (0/4)" />
-            <line number="142" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="138" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="139" hits="0" branch="true" condition-coverage="0% (0/4)" />
             <line number="143" hits="0" branch="true" condition-coverage="0% (0/2)" />
             <line number="144" hits="0" branch="true" condition-coverage="0% (0/2)" />
-            <line number="146" hits="0" branch="false" />
+            <line number="145" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="147" hits="0" branch="false" />
           </lines>
         </class>
         <class name="AspNetCore.Views_Shared_Error" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolio\Views\Shared\Error.cshtml" line-rate="0" branch-rate="0" complexity="2">
@@ -633,7 +621,7 @@
         </class>
       </classes>
     </package>
-    <package name="MyPortfolioTest" line-rate="0.9090909090909091" branch-rate="1" complexity="3">
+    <package name="MyPortfolioTest" line-rate="0.9545454545454546" branch-rate="1" complexity="4">
       <classes>
         <class name="AutoGeneratedProgram" filename="C:\Users\Decagon\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -647,38 +635,64 @@
             <line number="4" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="MyPortfolioTest.SeederTest" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolioest\SeederTest.cs" line-rate="1" branch-rate="1" complexity="2">
+        <class name="MyPortfolioTest.SeederTest" filename="C:\Users\Decagon\source\repos\Portfolio_DM\MyPortfolioest\SeederTest.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="WriteToJsonTest" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="22" hits="3" branch="false" />
                 <line number="24" hits="3" branch="false" />
+                <line number="26" hits="3" branch="false" />
                 <line number="27" hits="3" branch="false" />
                 <line number="29" hits="3" branch="false" />
-                <line number="30" hits="3" branch="false" />
                 <line number="31" hits="3" branch="false" />
+                <line number="32" hits="3" branch="false" />
+                <line number="33" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="ReadToJsonTest" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="3" branch="false" />
+                <line number="43" hits="3" branch="false" />
+                <line number="44" hits="3" branch="false" />
+                <line number="45" hits="3" branch="false" />
+                <line number="46" hits="3" branch="false" />
+                <line number="47" hits="3" branch="false" />
+                <line number="49" hits="3" branch="false" />
+                <line number="51" hits="3" branch="false" />
+                <line number="52" hits="3" branch="false" />
+                <line number="53" hits="3" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="3" branch="false" />
-                <line number="13" hits="3" branch="false" />
-                <line number="14" hits="3" branch="false" />
-                <line number="15" hits="3" branch="false" />
+                <line number="14" hits="6" branch="false" />
+                <line number="15" hits="6" branch="false" />
+                <line number="16" hits="6" branch="false" />
+                <line number="17" hits="6" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="12" hits="3" branch="false" />
-            <line number="13" hits="3" branch="false" />
-            <line number="14" hits="3" branch="false" />
-            <line number="15" hits="3" branch="false" />
-            <line number="22" hits="3" branch="false" />
+            <line number="14" hits="6" branch="false" />
+            <line number="15" hits="6" branch="false" />
+            <line number="16" hits="6" branch="false" />
+            <line number="17" hits="6" branch="false" />
             <line number="24" hits="3" branch="false" />
+            <line number="26" hits="3" branch="false" />
             <line number="27" hits="3" branch="false" />
             <line number="29" hits="3" branch="false" />
-            <line number="30" hits="3" branch="false" />
             <line number="31" hits="3" branch="false" />
+            <line number="32" hits="3" branch="false" />
+            <line number="33" hits="3" branch="false" />
+            <line number="41" hits="3" branch="false" />
+            <line number="43" hits="3" branch="false" />
+            <line number="44" hits="3" branch="false" />
+            <line number="45" hits="3" branch="false" />
+            <line number="46" hits="3" branch="false" />
+            <line number="47" hits="3" branch="false" />
+            <line number="49" hits="3" branch="false" />
+            <line number="51" hits="3" branch="false" />
+            <line number="52" hits="3" branch="false" />
+            <line number="53" hits="3" branch="false" />
           </lines>
         </class>
       </classes>

@@ -7,7 +7,7 @@ using System.IO;
 
 namespace MyPortfolio.Data
 {
-    public class Seeder 
+    public class Seeder: ISeeder
     {
         private string db = Path.Combine(Directory.GetCurrentDirectory(), "Data/");
 

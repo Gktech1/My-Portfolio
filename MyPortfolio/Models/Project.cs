@@ -1,4 +1,6 @@
-﻿namespace MyPortfolio.Models
+﻿using System;
+
+namespace MyPortfolio.Models
 {
     public class Project
     {

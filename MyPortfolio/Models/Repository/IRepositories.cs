@@ -6,5 +6,6 @@ namespace MyPortfolio.Models.Repository
     {
         bool WriteContact(Contact contact);
         List<Project> GetProject();
+        void WriteContact<T>(T contact, string v);
     }
 }
