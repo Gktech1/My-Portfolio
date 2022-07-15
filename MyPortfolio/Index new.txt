@@ -1,0 +1,81 @@
+  <div class="card-body">
+          <div class="input-group mb-3">
+            <input type="text" id="search"  class="form-control" name="name" placeholder="Search todo by name">
+             <input class="p-1 m1-2 btn btn-sm-info" asp-action="Index" type="Submit" value="Search" />
+           
+          </div>
+       </div>
+  <div class="container">
+  <table class="table">
+    <thead>
+      <tr class="table-danger">
+          <th scope="col">#</th>
+           <th scope="col">
+               <span class="badge rounded-pill bg-secondary">Description</span>
+                @*@Html.DisplayNameFor(model => model.Description)*@
+            </th>
+            <th scope="col">
+                 <span class="badge rounded-pill bg-secondary">Name</span>
+                @*@Html.DisplayNameFor(model => model.Name)*@
+            </th>
+            <th scope="col">
+                <span class="badge rounded-pill bg-secondary">Schedule</span>
+                @*@Html.DisplayNameFor(model => model.Schedule)*@
+            </th>
+
+             <th scope="col">
+               <span class="badge rounded-pill bg-secondary"></span>
+                @*@Html.DisplayNameFor(model => model.Description)*@
+            </th>
+
+             <th scope="col">
+               <span class="badge rounded-pill bg-secondary">Action</span>
+                @*@Html.DisplayNameFor(model => model.Description)*@
+            </th>
+      </tr>
+    </thead>
+    <tbody>
+      
+@foreach (var item in Model) {
+        <tr class="table-primary">
+
+            <td>
+                @item.Id
+            </td>
+            <td>
+                @item.Description
+            </td>
+            <td> 
+                @item.Name
+            </td>
+            <td>
+                @item.Schedule
+            </td>
+           
+         <td>
+              <a class="btn btn-primary btn-sm" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+        </td>
+
+        <td>
+            <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+        </td>
+        </tr>
+}    </tbody>
+  </table>
+  </div>
+         https://www.youtube.com/watch?v=12UNHJJZvFY
+
+<i class="fa-solid fa-bucket"></i>
+
+https://fontawesome.com/icons/bucket?s=solid
+
+<i class="fa-solid fa-trash-can"></i>
+https://fontawesome.com/icons/trash-can?s=solid
+
+<i class="fa-solid fa-highlighter"></i>
+https://fontawesome.com/icons/highlighter?s=solid
+
+https://fontawesome.com/icons/album-collection-circle-plus?s=solid
+<i class="fa-solid fa-album-collection-circle-plus"></i>
+
+dbBrowser for sqlite download it

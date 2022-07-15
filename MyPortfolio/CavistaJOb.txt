@@ -1,0 +1,3 @@
+Data Source=LAPTOP-OKIKVU38;Initial Catalog=CustomerOnboardingDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+
+https://jobs.smartrecruiters.com/CAVISTA/743999835733715-associate-engineer

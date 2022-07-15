@@ -19,6 +19,11 @@ namespace MyPortfolio.Models.Repository
             return list;
         }
 
+        public void WriteContact<T>(T contact, string v)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public bool WriteContact(Contact contact)
         {
             var write = _seedMe.WriteJson<Contact>(contact, _contact);
