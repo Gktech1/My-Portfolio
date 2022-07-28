@@ -1,17 +1,21 @@
 {
   "Id": 1,
-  "ImageUrl": "../img/portfolio/MyPortfolio.png",
-  "ProjectLink": "https://github.com/decadevs/week-1-task-Gktech1"
+  "Name": " Wema Bank Customer Onboarding Application",
+  "Description": "This project is a microservice web application for registration and login of customer to onboard them and perform necessary trasaction that is needed to be done in bank and Technologies Used – C#, MySql, Docker.",
+  "ProjectLink": "https://github.com/Gktech1/WemaBank-CustomerOnboarding.git"
 }, {
   "Id": 2,
-  "ImageUrl": "../img/portfolio/GPACalculator.png",
-  "ProjectLink": "https://github.com/decadevs/week-2-task-Gktech1"
+  "Name": "Personal Website",
+  "Description": "This is a project on personal portofolio website and Technologies Used – C#, MySql, Docker.",
+  "ProjectLink": "https://github.com/Gktech1/My-Portfolio"
 }, {
   "Id": 3,
-  "ImageUrl": "../img/portfolio/Consolebankapp.png",
-  "ProjectLink": "https://github.com/decadevs/week-3-task-Gktech1"
+  "Name": "GPA Calculator",
+  "Description": "This is a CGPA Calculator for calculating the total grade of all student in an Higher Institution",
+  "ProjectLink": "https://github.com/Gktech1/CGPA-Calculator"
 }, {
   "Id": 4,
-  "ImageUrl": "../img/portfolio/LinkedList.png",
+  "Name": "Linked List",
+  "Description": "This is a project on linked list",
   "ProjectLink": "https://github.com/decadevs/week-4-task-Gktech1"
 }

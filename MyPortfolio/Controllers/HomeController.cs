@@ -36,7 +36,19 @@ namespace MyPortfolio.Controllers
 
             return View();
         }
-        
+
+       /* [HttpPost]
+        public IActionResult Contact(Contact contactView)
+        {
+            var result = _services.CreateContact(contactView);
+            if (result)
+            {
+                return Redirect("Home/Index");
+            }
+
+            return View();
+        }
+*/
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
